@@ -5,8 +5,8 @@
 
 exports.hello = function (name) {
   if (!name) { // if no name
-    return your_answer
+    return 'Hello, World!'
   } else {
-    return your_answer
+    return 'Hello, ' + name + '!'
   }
 }
